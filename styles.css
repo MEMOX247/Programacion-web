@@ -1,0 +1,27 @@
+body{margin: 0px;
+    background-image: url("../images/istockphoto-1160720443-612x612.jpg");
+    
+}
+*{
+    border: solid red 1px;
+}
+
+
+/* selector { propiedad : valor ; } */
+#parrafo_principal{color:yellow}
+
+/* si la etiqueta HTML tiene un ID, le pongo # en css.*/
+
+.elemento{color: #ffbb00;}
+/* si la etiqueta HTML tiene un class, le pongo . en css*/
+
+#primer_id{font-size: large;}
+#header{background-color: grey;}
+
+p{color: white}
+p{color:green;}
+
+#titular{padding-left: 10px ;}
+#titular{padding: 10px 0 0 10px;}
+#primer_id{margin:40px}
+p{margin: 20px 30px}
