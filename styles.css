@@ -1,12 +1,147 @@
-   
-*body{background-color: #459cb0;}
-*{
-    border: solid red 1px;
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+
+
+
+
+/* HEADER */
+#encabezado{
+    display: flex;justify-content: space-between;
+    background-color: cadetblue;
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+}
+#ulgaleria{
+    
+    list-style: none;
+    margin-right: 7vw;
+}
+#pri_li{
+    margin-bottom: 2px;
 }
 
-#titular{color: #459cb0;}
+#pelotapng{
+    width: 200px;
+}
+#menudesplegable {
+    position: fixed;
+    position: absolute;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menudesplegable > li {
+  position: relative;
+}
+
+#menudesplegable > li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+#menudesplegable > li:hover > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#menudesplegable > li > a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#menudesplegable > li > ul > li > a {
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+  background-color: white;
+}
+#menuheader{
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+/* Body */
 
 
-#Principal {color: #459cb0;}
+#completo{
+    
+    background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg);
+         text-align: center;
+}
 
+
+#principal{
+    color: #459cb0; padding: 10%; font-size: 70px;
+    font-family:'Xanh Mono',monospace;
+}
+
+#p1{
+    color: antiquewhite;
+}
+#substitulo{
+    text-decoration: underline; color: antiquewhite;
+}
+#dedicacion{
+    color: antiquewhite; padding: 5%; font-size: 200%;
+}
+#servicios{
+    color: antiquewhite;
+}
+#ul1{
+    color: antiquewhite; font-size: 150%;
+}
+#instagram{
+    width: 50px;
+    height: 0px;
+    border-radius: 50px;
+}
+#divlogoinsta{
+    margin-left: 50vw;
+    margin-top: 20vh;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+/* FOOTER */
+#terminos{
+    background-color: cadetblue;
+}
+
+
+
+
+/*SMALL SCREEN*/
+ @media only screen and (max-width:600px) {
+    #completo{
+        text-align: center;
+    }
+    #encabezado{
+        display: flex; justify-content: center;
+    }
+}
+
+
+/*TOMO NOTA
+Flex container(
+    display
+    flex direccion
+    flex wrap
+)
+Flex container - child
+Flex line
+Flex - flow(
+    justify-content
+    align-items
+    align-content
+    )
 

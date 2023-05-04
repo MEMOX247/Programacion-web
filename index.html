@@ -5,53 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" text="Principal">
-    <style>
-        /*internal*/
-        h1 id-titular {color: rgb(98, 148, 228); border-color: 20px black; padding: 30%; font-size: 200%;}
-        p {color: antiquewhite;}
-        h1 id-substitular {text-decoration: underline; color: antiquewhite;}
-        h2 {color: antiquewhite; padding: 15%; font-size: 200%;}
-        body {background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg);
-         text-align: center;}
-        ul {color: antiquewhite; font-size: 150%;}
-        footer {background-color: cadetblue;}
-        header {background-color: cadetblue;width: 100%;}
-    </style>
+    <link rel="stylesheet" href="styles.css" text="Principal">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    
+
+
+
 </head>
-<header>             BARRA DE COLOR                   </header>
-<body>
+
+<header> 
+    <div id="menudesplegable">
+    <ul class="menu">
+   <!--     <li><a href="#">Inicio</a></li>
+        <li><a href="#">Categorias</a>
+          <ul>
+            <div id="menuheader">
+            <li><a href="#">Indumentaria Futbol</a></li>
+            <li><a href="#">Indumentaria deportiva mujer</a></li>
+            <li><a href="#">Indumentaria Urbana</a></li>
+            </div>
+          </ul>
+      </ul>
+    </div>
+    -->
+    <div id="encabezado">
+        <div id="logopelota">
+            <img src="todo clasico png.png" alt="todo clasico png" id="pelotapng">
+        </div>
+        <div id="galeriaheader">
+            <ul id="ulgaleria">
+                <li id="pri_li"><a href="">GALERIA</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+        </div>  
+    </div>
+</header>
+<body id="completo">
     
-    <h1> <id-titular>Todo Clasico</h1>
-    <!--No puedo enlazar con css en file externo-->
+    <h1 id="principal">Todo Clásico</h1>
     
-        <h2>Somos una empresa dedicada a ofrecer diferentes servicios dentro del rubro textil</h2>
-        <img id-pelota style="width: 500px;" src="pelota todo clasico.JPG" alt="Logo Todo Clasico">
-    <img src="" alt="">
-    <form action="" method="get"></form>
-    <form action="" method="post"></form>
+    <h2 id="dedicacion">Somos una empresa dedicada a ofrecer diferentes servicios dentro del rubro textil</h2>  
+    <img id-pelota style="width: 500px;" src="pelota todo clasico.JPG" alt="Logo Todo Clasico">
     <main>
         
-        <h1><id-substitular>ACA IRIA UN SUBSTITULO</id-substitular></h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna, iaculis sed convallis congue, laoreet non lectus. Nulla eu magna est. Vivamus rhoncus nibh vel purus varius egestas. Proin fringilla leo ex, sed interdum risus viverra in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae libero ut nisl posuere tempor. Morbi eu odio quis arcu fermentum eleifend a maximus tortor. Pellentesque placerat enim id interdum maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dignissim leo non elit ultrices placerat. Quisque aliquam turpis id metus cursus, vel posuere purus euismod. In tincidunt aliquet malesuada.</p>
-        <h2>Productos y servicios que ofrecemos </h2>
+        <h1 id="substitulo">ACA IRIA UN SUBSTITULO</h1>
+        <p id="p1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna, iaculis sed convallis congue, laoreet non lectus. Nulla eu magna est. Vivamus rhoncus nibh vel purus varius egestas. Proin fringilla leo ex, sed interdum risus viverra in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae libero ut nisl posuere tempor. Morbi eu odio quis arcu fermentum eleifend a maximus tortor. Pellentesque placerat enim id interdum maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dignissim leo non elit ultrices placerat. Quisque aliquam turpis id metus cursus, vel posuere purus euismod. In tincidunt aliquet malesuada.</p>
+        <h2 id="servicios">Productos y servicios que ofrecemos </h2>
         
-            <ul type="disc">
+            <ul id="ul1" type="disc">
                 <li>Indumentaria deportiva de futbol.</li>
                 <li>Indumentaria urbana para el dia a dia.</li>
                 <li>Indumentaria personalizada para empresas y emprendimientos.</li> 
-            <p>Aqui les facilitamos nuestro instagram</p>
-            <a href="https://instagram.com/todoclasico.myp?igshid=YmMyMTA2M2Y=">
-                <input type="button" value="Instagram" /></a>
-            <ul> 
-
-
-
+            </ul> 
+<div id="divlogoinsta">
+    <a id="instagram" href="https://instagram.com/todoclasico.myp?igshid=YmMyMTA2M2Y="><img id="instagram" src="logo instagram.jpg" alt="logo istagram"></a>
+</div>
 
     </main>
 <iframe src="https://www.youtube.com/embed/Imeq3GeRttw" width="560" height="315">
 </iframe>
+<div id="logowa">
+    <a href=""></a>
+
+</div>
 </body>
-<footer>TERMINOS Y CONDICIONES</footer>
+<footer id="terminos">TERMINOS Y CONDICIONES</footer>
 </html>
 
