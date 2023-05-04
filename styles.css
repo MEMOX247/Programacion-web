@@ -1,4 +1,5 @@
 
+
   
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 
@@ -144,4 +145,16 @@ Flex - flow(
     align-items
     align-content
     )
+
+=======
+   
+*body{background-color: #459cb0;}
+*{
+    border: solid red 1px;
+}
+
+#titular{color: #459cb0;}
+
+
+#Principal {color: #459cb0;}
 
