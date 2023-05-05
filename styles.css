@@ -17,6 +17,12 @@
     left: 0%;
     align-items: center;
 }
+#botonbuscar{
+    color: black;
+}
+#headerp{
+    background-color: cadetblue;
+}
 #ulgaleria{
     
     list-style: none;
@@ -29,7 +35,8 @@
 #pelotapng{
     width: 200px;
 }
-#menudesplegable {
+
+/* #menudesplegable {
     position: fixed;
     position: absolute;
   display: flex;
@@ -44,7 +51,6 @@
 
 #menudesplegable > li > ul {
   display: none;
-  position: absolute;
   top: 100%;
   left: 0;
 }
@@ -70,20 +76,21 @@
     font-family: 'Times New Roman', Times, serif;
     color: antiquewhite;
 }
-
+/*
 /* Body */
 
 
 #completo{
     
     background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg);
-         text-align: center;
+        text-align: center;
 }
 
 
 #principal{
     color: #459cb0; padding: 10%; font-size: 70px;
     font-family:'Xanh Mono',monospace;
+    margin-top: 100px;
 }
 
 #p1{
@@ -101,10 +108,16 @@
 #ul1{
     color: antiquewhite; font-size: 150%;
 }
+#instagram1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
 #instagram{
     width: 50px;
-    height: 0px;
     border-radius: 50px;
+
 }
 #divlogoinsta{
     margin-left: 50vw;
@@ -112,6 +125,9 @@
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+#pelota{
+    width: 500px;
 }
 /* FOOTER */
 #terminos{
@@ -129,6 +145,26 @@
     #encabezado{
         display: flex; justify-content: center;
     }
+    #videogatito{
+        display: none;
+    }
+    #pelota{
+        width: 200px;
+    }
+    #pricipal{
+        margin-top: 300px;
+    }
+
+    /*
+    #botonmenu{
+        max-width: 50%;
+    }
+    */
+
+   #offcanvasDarkNavbar{
+    max-width: 50%;
+   }
+
 }
 
 
