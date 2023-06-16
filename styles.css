@@ -16,6 +16,7 @@
     top: 0%;
     left: 0%;
     align-items: center;
+    text-decoration: underline;
 }
 #botonbuscar{
     color: black;
@@ -36,50 +37,6 @@
     width: 200px;
 }
 
-/* #menudesplegable {
-    position: fixed;
-    position: absolute;
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#menudesplegable > li {
-  position: relative;
-}
-
-#menudesplegable > li > ul {
-  display: none;
-  top: 100%;
-  left: 0;
-}
-
-#menudesplegable > li:hover > ul {
-  display: flex;
-  flex-direction: column;
-}
-
-#menudesplegable > li > a {
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
-
-#menudesplegable > li > ul > li > a {
-  padding: 10px;
-  text-decoration: none;
-  color: gray;
-  background-color: white;
-}
-#menuheader{
-    font-family: 'Times New Roman', Times, serif;
-    color: antiquewhite;
-}
-/*
-/* Body */
-
-
 #completo{
     
     background-image: url(https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg);
@@ -88,16 +45,22 @@
 
 
 #principal{
-    color: #459cb0; padding: 10%; font-size: 70px;
+    color: #459cb0; padding: 20px; font-size: 70px;
     font-family:'Xanh Mono',monospace;
-    margin-top: 100px;
+    margin-top: 130px;
+    text-decoration-line: underline;
+
 }
 
 #p1{
     color: antiquewhite;
+    padding: 20px;
 }
 #substitulo{
-    text-decoration: underline; color: antiquewhite;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline;
+    padding: 10px;
 }
 #dedicacion{
     color: antiquewhite; padding: 5%; font-size: 200%;
@@ -130,7 +93,7 @@
     width: 500px;
 }
 /* FOOTER */
-#terminos{
+#footer{
     background-color: cadetblue;
 }
 
@@ -176,6 +139,8 @@
     max-width: 50%;
    }
 
+
+
 }
 #productosCarrito{
     color: antiquewhite;
@@ -189,6 +154,17 @@
     font-size: 40px;
     margin-top: 100px;
 }
+
+.btn-agregar-carrito{
+    border-radius: 8px;
+    background-color: antiquewhite;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
 
 /*TOMO NOTA
 Flex container(

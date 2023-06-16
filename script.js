@@ -28,6 +28,9 @@ function actualizarCarrito() {
   // Actualizar el total del carrito
   totalCarrito.innerText = total;
 }
+
+
+
 // Función para eliminar un producto del carrito
 function eliminarDelCarrito(index) {
     const productoEliminado = carrito.splice(index, 1)[0];
@@ -35,12 +38,3 @@ function eliminarDelCarrito(index) {
     
     actualizarCarrito();
   }
-  
-// Obtener el botón del producto y agregar el evento de clic
-const botonProducto = document.getElementById('boton-producto');
-botonProducto.addEventListener('click', function() {
-  const nombreProducto = 'Nombre del Producto';
-  const precioProducto = 10; // Precio del producto
-  
-  agregarAlCarrito(nombreProducto, precioProducto);
-});
