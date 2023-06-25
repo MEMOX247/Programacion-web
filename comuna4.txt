@@ -1,0 +1,12 @@
+Barrio:BARRACAS ESTE
+Superficie:191.75
+---
+Barrio:BOCA
+Superficie:167.0
+---
+Barrio:NUEVA POMPEYA
+Superficie:197.9090909090909
+---
+Barrio:PARQUE PATRICIOS
+Superficie:233.75
+---

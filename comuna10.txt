@@ -1,0 +1,21 @@
+Barrio:DEVOTO
+Superficie:500.0
+---
+Barrio:FLORESTA
+Superficie:103.0
+---
+Barrio:MONTE CASTRO
+Superficie:249.0
+---
+Barrio:VELEZ SARSFIELD
+Superficie:177.75
+---
+Barrio:VERSALLES
+Superficie:432.0
+---
+Barrio:VILLA LURO
+Superficie:309.6
+---
+Barrio:VILLA REAL
+Superficie:388.25
+---
