@@ -1,9 +1,0 @@
-Barrio:ALMAGRO
-Superficie:159.24074074074073
----
-Barrio:BOEDO
-Superficie:246.92307692307693
----
-Barrio:VILLA DEVOTO
-Superficie:400.0
----
