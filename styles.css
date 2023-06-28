@@ -204,9 +204,9 @@
 }
 
 .carrousel{
-    width: 40%;
-    margin: 0 30%;
-
+    width: 60%;
+    margin: 0 20%;
+    
 }
 
 .conteCarrousel{
@@ -278,6 +278,7 @@
 .imagenescarru{
     width: 225px;
     height: 250px;
+    margin-left: 1%;
 }
 .imagenescarru1{
     width: 200px;
